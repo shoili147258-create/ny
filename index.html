@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Portfolio</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<div  class="av">
+  <nav class="navbar navbar-expand-lg bg-dark">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">Ebrahem💪</a>
+<button class="btn btn-outline-warning">Zian😎</button>
+
+</div>
+</nav>
+<section class="hero">
+<div>
+<h1> Ebrahem Zian 👌</h1>
+<p>Learn About Ibrahim Zain's Life 👌</p>
+</div>
+</section>
+<section class="about">
+<div class="container">
+<h1 class="mb-3">Ebrahem💪</h1>
+<p class="mb-4" class="h">
+I am Ebrahem💪 I love coding websites using HTML, CSS, Flexbox, and JavaScript!
+</p>
+<div class="text-center mt-4">
+<button type="button" class="btn btn-primary">Html</button>
+<button type="button" class="btn btn-secondary">Js</button>
+<button type="button" class="btn btn-success">css</button>
+<button type="button" class="btn btn-danger">Bootstrap</button>
+
+</div>
+</div>
+</section>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/js.js"></script>
+
+
+
+   
+    
+
+    <div class="container text-center py-5">
+        <h1 class="fw-normal mb-5" style="color: #2c2c2c;">My Projects</h1>
+        
+        <div class="row justify-content-center g-4 mb-5">
+            <!-- البطاقة 1 -->
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="card p-4 border-0 custom-card text-center">
+                    <span class="text-muted small mb-2"><img src="لقطة شاشة 2026-08-05 151532.png" alt=""></span>
+                    <h3 class="h4 card-title fw-normal my-2">Gaming Page</h3>
+                    <p class="card-text text-muted small">**CSS**
+
+CSS is used to make web pages beautiful and attractive. It changes colors, fonts, layouts, and improves the website's design.
+</p>
+                </div>
+            </div>
+
+            <!-- البطاقة 2 -->
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="card p-4 border-0 custom-card text-center">
+                    <span class="text-muted small mb-2"><img src="لقطة شاشة 2026-08-05 151050.png"alt=""></span>
+                    <h3 class="h4 card-title fw-normal my-2">Healthy Living Site</h3>
+                    <p class="card-text text-muted small">**HTML**
+
+HTML is the basic structure of every web page. It is used to create headings, paragraphs, images, links, and other page elements.
+</p>
+            </div>
+
+    
+        </div>
+<div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="card p-4 border-0 custom-card text-center">
+                    <span class="text-muted small mb-2"><img src="لقطة شاشة 2026-08-05 151050.png"alt=""></span>
+                    <h3 class="h4 card-title fw-normal my-2">Healthy Living Site</h3>
+                    <p class="card-text text-muted small">**HTML**
+
+HTML is the basic structure of every web page. It is used to create headings, paragraphs, images, links, and other page elements.
+</p>
+            </div>
+
+    
+        </div>
+        
+    </div>
+ <button id="like-btn" class="btn custom-btn px-4 py-2 fw-medium">
+            ❤️ Show Love: <span id="like-count">0</span> Likes
+        </button>
+    <script>
+        const likeBtn = document.getElementById('like-btn');
+        const likeCount = document.getElementById('like-count');
+
+        let count = 0;
+
+       
+        likeBtn.addEventListener('click', () => {
+            count++; 
+            likeCount.textContent = count; 
+        });
+    </script>
+
+
+    <!-- الحاوية الرئيسية للنموذج متمركزة في منتصف الشاشة -->
+    <main class="flex-grow-1 d-flex align-items-center justify-content-center px-3 py-5">
+        <div class="w-100" style="max-width: 500px;">
+            <!-- عنوان القسم الرئيسي -->
+            <h1 class="text-center fw-normal mb-4 text-dark" style="letter-spacing: 0.5px;">Contact Me</h1>
+            
+            <!-- نموذج إدخال البيانات -->
+            <form id="contactForm" class="needs-validation" novalidate>
+                <!-- حقل إدخال الاسم -->
+                <div class="mb-4">
+                    <label for="userName" class="form-label fw-bold text-secondary small">Your Name</label>
+                    <input type="text" class="form-control form-control-lg border-secondary-subtle rounded-2 fs-6 shadow-sm py-2.5" id="userName" placeholder="Enter your name" required>
+                </div>
+
+                <!-- حقل إدخال الرسالة -->
+                <div class="mb-4">
+                    <label for="userMessage" class="form-label fw-bold text-secondary small">Message</label>
+                    <textarea class="form-control form-control-lg border-secondary-subtle rounded-2 fs-6 shadow-sm py-2.5" id="userMessage" rows="5" placeholder="Write a message..." required></textarea>
+                </div>
+
+                <!-- زر الإرسال باللون الداكن المتطابق مع الصورة -->
+                <button type="submit" class="btn btn-dark w-100 py-3 rounded-2 fw-medium shadow-sm transition">Send Message</button>
+            </form>
+        </div>
+    </main>
+>
+    <footer class="footer-bg text-white text-center py-3 fs-6">
+        Created with <span class="text-danger">❤️</span> by Students
+    </footer>
+
+   
+
+</body>
+</html>
