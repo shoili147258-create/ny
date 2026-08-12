@@ -1,63 +1,162 @@
-.hero{
- background-color:#0d6efd;
-color:white;
-height:300px;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
+.bb{
+   width: 500px ;
+   height: 500px;
 }
+        body {
+            background-color: white;
+        }
 
-.hero h1{
-font-size:50px;
-}
+        .trip-title {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 15px;
+        }
 
-.hero p{
- font-size:55px;
-}
-.about{
-padding:60px 0;
-text-align:center;
-}
-.badge{
-font-size:15px;
-margin:5px;
-padding:10px 15px;
-}
-/* تأثير مخصص للبطاقات لتطابق التصميم الأصلي */
-.custom-card {
-    border-radius: 12px !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-    max-width: 320px;
-    width: 100%;
-}
+        .category-btn {
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 5px;
+            margin: 3px;
+        }
 
-/* لون زر الإعجابات وتأثيراته */
-.custom-btn {
-    background-color: #c62828 !important;
-    color: white !important;
-    border-radius: 8px !important;
-    box-shadow: 0 4px 12px rgba(198, 40, 40, 0.2);
-    transition: background-color 0.2s ease;
-}
+        .hiking {
+            background-color: #ffbf00;
+        }
 
-.custom-btn:hover {
-    background-color: #b71c1c !important;
-}
-        /* التنسيقات الخاصة بالبطاقات والزر */
-        .custom-card {
-            border-radius: 12px !important;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-            max-width: 320px;
+        .beach {
+            background-color: #16bce0;
+        }
+
+        .camping {
+            background-color: #178c52;
+        }
+
+        .city {
+            background-color: #dc3545;
+        }
+
+        .category-btn:hover {
+            opacity: 0.85;
+        }
+         body {
+            background-color: #f8f7fb;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 30px;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .destination-card {
+            width: 263px;
+            border: none;
+            border-radius: 14px;
+            overflow: hidden;
+            background-color: white;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+            transition: 0.3s;
+        }
+
+        .destination-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .destination-card img {
             width: 100%;
+            height: 160px;
+            object-fit: cover;
         }
-        .custom-btn {
-            background-color: #c62828 !important;
-            color: white !important;
-            border-radius: 8px !important;
-            box-shadow: 0 4px 12px rgba(198, 40, 40, 0.2);
-            transition: background-color 0.2s ease;
+
+        .card-body {
+            padding: 14px;
+            min-height: 140px;
         }
-        .custom-btn:hover {
-            background-color: #b71c1c !important;
+
+        .destination-name {
+            color: #d88919;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .description {
+            color: #444;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+         body {
+            margin: 0;
+            background-color: #f8f7fb;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Passport Stamps */
+        .passport {
+            text-align: center;
+            padding: 25px 0 45px;
+        }
+
+        .passport-btn {
+            background-color: #ffbf00;
+            border: none;
+            border-radius: 7px;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Booking Section */
+        .booking-section {
+            background-color: white;
+            padding: 45px 20px 25px;
+        }
+
+        .booking-box {
+            width: 420px;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        .booking-title {
+            text-align: center;
+            font-size: 30px;
+            font-weight: normal;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .form-label {
+            font-weight: bold;
+            margin-bottom: 7px;
+        }
+
+        .form-control {
+            height: 37px;
+            border-radius: 5px;
+        }
+
+        .book-btn {
+            width: 100%;
+            background-color: #ffbf00;
+            border: none;
+            color: #000;
+            font-weight: bold;
+            padding: 9px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+
+        .book-btn:hover {
+            background-color: #e5aa00;
         }

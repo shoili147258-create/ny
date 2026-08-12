@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travel</title>
+    
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand text-warning fw-bold fs-2" href="#">
+                <i class="fa-solid fa-plane"></i> Wanderlust Travel
+            </a>
+            <button class="btn btn-outline-warning">
+                <i class="fa-solid fa-moon"></i> Dark Mode
+            </button>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="travelCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/id/1036/1200/400" class="d-block w-100 carousel-img" alt="Mountain Adventure">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Explore The Mountains</h2>
+                    <p>Hike through breath-taking mountain trails around the globe.</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="https://picsum.photos/id/1039/1200/400" class="d-block w-100 carousel-img" alt="Tropical Beach">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Relax On Island Beaches</h2>
+                    <p>Discover crystal clear waters and tropical island paradises.</p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="https://picsum.photos/id/1040/1200/400" class="d-block w-100 carousel-img" alt="Historic Cities">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Discover Ancient Wonders</h2>
+                    <p>Walk through historic streets, ancient temples, and landmarks.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#travelCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#travelCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Bootstrap 5 Bundle JS (Includes Popper.js for Carousel Controls) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/js.js"></script>
+
+
+
+    <div class="container text-center mt-3">
+
+        <h1 class="trip-title">
+            Trip Categories
+        </h1>
+
+        <div>
+            <button class="category-btn hiking">
+                🥾 Hiking
+            </button>
+
+            <button class="category-btn beach">
+                🏖️ Beach
+            </button>
+
+            <button class="category-btn camping">
+                🏕️ Camping
+            </button>
+
+            <button class="category-btn city">
+                🏛️ City Tours
+            </button>
+        </div>
+
+    </div>
+
+       
+
+    <div class="container">
+
+        <h1 class="title">
+            Popular Destinations
+        </h1>
+
+        <div class="cards-container">
+
+            <!-- Swiss Alps -->
+            <div class="card destination-card">
+
+                <img 
+                    src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=600&q=80"
+                    alt="Swiss Alps"
+                >
+
+                <div class="card-body">
+
+                    <h5 class="destination-name">
+                        Swiss Alps 🏔️
+                    </h5>
+
+                    <p class="description">
+                        Snowy mountain peaks, cozy cabin
+                        stays, and world-class ski slopes.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- Bali Islands -->
+            <div class="card destination-card">
+
+                <img 
+                    src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80"
+                    alt="Bali Islands"
+                >
+
+                <div class="card-body">
+
+                    <h5 class="destination-name">
+                        Bali Islands 🌴
+                    </h5>
+
+                    <p class="description">
+                        Warm ocean waters, lush green
+                        rice fields, and relaxing sunsets.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- Tokyo City -->
+            <div class="card destination-card">
+
+                <img 
+                    src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80"
+                    alt="Tokyo City"
+                >
+
+                <div class="card-body">
+
+                    <h5 class="destination-name">
+                        Tokyo City ⛩️
+                    </h5>
+
+                    <p class="description">
+                        High-tech modern skyscrapers
+                        combined with traditional ancient
+                        shrines.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Booking -->
+    <section class="booking-section">
+
+        <div class="booking-box">
+
+            <h1 class="booking-title">
+                Book Your Dream Trip 🧳
+            </h1>
+
+            <form>
+
+                <!-- Full Name -->
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Full Name
+                    </label>
+
+                    <input 
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter your full name"
+                    >
+
+                </div>
+
+
+                <!-- Destination -->
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Where do you want to go?
+                    </label>
+
+                    <input 
+                        type="text"
+                        class="form-control"
+                        placeholder="e.g. Switzerland, Bali, Tokyo"
+                    >
+
+                </div>
+
+
+                <!-- Button -->
+                <button 
+                    type="submit"
+                    class="book-btn"
+                >
+                    Book Trip Now
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+</body>
+</html>
